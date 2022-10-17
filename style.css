@@ -1,0 +1,25 @@
+.dataframe th{
+    background:#6497b1; 
+    font-family:Helvetica,sans-serif; 
+    color:white; 
+    border:3px solid white; 
+    text-align:center !important;
+}
+
+.dataframe td{
+    font-family: Helvetica,sans-serif;
+    text-align: center;
+}
+
+.dataframe {
+    width : 100%
+}
+
+.viewerBadge_link__1S137 {
+    display:none 
+}
+
+/* tr th:nth-child(1),tr td:nth-child(1){
+
+    display:none;
+  } */
