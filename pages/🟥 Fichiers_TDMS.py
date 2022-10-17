@@ -486,12 +486,10 @@ if check_password():
 
     st.markdown(f'<h2 style="background-color:{secondary_color};border-radius:14px;text-align:center;">{"LECTURE DES FICHIERS"}</h2>', unsafe_allow_html=True)
     f"Pour importer un fichier .tdms, vous devez cliquez sur le bouton **Browse Files** ou **faire glisser** votre fichier dans la fenêtre."
-    st.info("""Merci de faire attention dans l'importation de vos fichiers. Pour le moment, l'application ne permet que de créer un 3ème sprint à partir de 2 autres essais avec des résistances différentes. \n
-    Vous devez donc **importer** vos deux fichiers ci-dessous ! 
+    st.info("""Merci de faire attention dans l'importation de vos fichiers. Pour le moment, l'application ne permet que de créer un 3ème sprint à partir de 2 autres essais avec des résistances différentes.  \nVous devez donc **importer** vos deux fichiers ci-dessous ! 
     """, icon="ℹ️")
 
-    st.warning("""Si vous voulez changer de méthode, merci de repasser par l' **onglet Home** ou de faire un **Ctrl+R** pour rafraichir l'application ! \n
-    Attention de bien sauvegarder vos données et de les avoir exporter avant de changer de page.""", icon="⚠️")
+    st.warning("""Si vous voulez changer de méthode, merci de repasser par l' **onglet Home** ou de faire un **Ctrl+R** pour rafraichir l'application !  \nAttention de bien sauvegarder vos données et de les avoir exporter avant de changer de page.""", icon="⚠️")
 
     col1, col2 = st.columns(2)
     with col1:
