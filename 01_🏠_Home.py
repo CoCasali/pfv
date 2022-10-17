@@ -38,23 +38,23 @@ if check_password():
     st.write("Here goes your normal Streamlit app...")
     st.button("Click me")
 
-# Hide Hamburger (Top Right Corner) and "Made with Streamlit" footer:
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+    # Hide Hamburger (Top Right Corner) and "Made with Streamlit" footer:
+    hide_streamlit_style = """
+                <style>
+                #MainMenu {visibility: hidden;}
+                footer {visibility: hidden;}
+                </style>
+                """
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-st.markdown(f'<h1 style="background-color:#6497b1;border-radius:14px;text-align:center;">{"APPLICATION | PROFIL FORCE - VITESSE"}</h1>', unsafe_allow_html=True)
-f"*version 2.10 - par Corentin Casali*"
-f"""Bienvenue dans l'application profil force-vitesse. Vous trouverez dans le menu à gauche 2 onglets, vous permettant de traiter vos fichiers de profil force-vitesse.\n
-Vous pouvez utilisez des **fichiers .tdms** ou alors des **fichiers .xls** \n
-⚠️ À l'heure actuelle, aucun paramètre concernant le vélo ne peut être régler. 
-"""
+    st.markdown(f'<h1 style="background-color:#6497b1;border-radius:14px;text-align:center;">{"APPLICATION | PROFIL FORCE - VITESSE"}</h1>', unsafe_allow_html=True)
+    f"*version 2.10 - par Corentin Casali*"
+    f"""Bienvenue dans l'application profil force-vitesse. Vous trouverez dans le menu à gauche 2 onglets, vous permettant de traiter vos fichiers de profil force-vitesse.\n
+    Vous pouvez utilisez des **fichiers .tdms** ou alors des **fichiers .xls** \n
+    ⚠️ À l'heure actuelle, aucun paramètre concernant le vélo ne peut être régler. 
+    """
 
-st.info("""Des informations sont disponibles dans les différents onglets. N'hésitez pas à jeter un coup d'oeil !
+    st.info("""Des informations sont disponibles dans les différents onglets. N'hésitez pas à jeter un coup d'oeil !
 
-Si vous avez des problèmes, merci de contacter : corentin.casali@univ-st-etienne.fr
-""", icon="ℹ️")
+    Si vous avez des problèmes, merci de contacter : corentin.casali@univ-st-etienne.fr
+    """, icon="ℹ️")
