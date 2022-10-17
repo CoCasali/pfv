@@ -59,7 +59,7 @@ if check_password():
                 footer {visibility: hidden;}
                 </style>
                 """
-    # st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
     pd.options.display.float_format = '{:,.3f}'.format
 
