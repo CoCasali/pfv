@@ -35,9 +35,6 @@ def check_password():
         return True
 
 if check_password():
-    st.write("Here goes your normal Streamlit app...")
-    st.button("Click me")
-
     # Hide Hamburger (Top Right Corner) and "Made with Streamlit" footer:
     hide_streamlit_style = """
                 <style>
