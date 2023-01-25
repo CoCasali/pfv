@@ -57,10 +57,13 @@ Dans le cadre d'une étude scientifique, j'ai été amené à créer une applica
 L'objectif était de parvenir à recréer tout un soft d'analyse du sprint à partir des fichiers .tdms et ou .xls que nous obtenons de l'ergocycle. Il a fallu tout d'abord recréer tout le soft d'analyse en Python, qui était à la base en VBA, puis permettre une automisation des paramètres de sélection de données afin de rendre l'analyse le plus simple pour les personnes du laboratoire. 
 
 **Data analysis**\
-Traduire du code VBA en Python ; 
-Utilisation de streamlit pour de la visualisation ; 
-Exportation de données au format .csv ; 
-Traitement en live
+- Traduire du code VBA en Python ;
+- Utilisation de streamlit pour de la visualisation ; 
+- Exportation de données au format .csv ; 
+- Traitement en live
+
+**Viewing**\
+![](assets/gif/presentation.globale.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
