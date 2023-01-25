@@ -5,7 +5,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -50,6 +49,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+**External Link**
+L'application est disponible à l'adresse suivante : https://profil-force-vitesse.streamlit.app/
+Elle est cependant protégée par un mot de passe, pour n'être accessible que par les personnes du laboratoire.
+
 **Contextual reminder**\
 Dans le cadre d'une étude scientifique, j'ai été amené à créer une application permettant l'analyse de sprint sur ergocycle. Durant l'étude scientifique, les sujets devaient effectuer 2 sprints à des résistances différentes. À l'aide de ses 2 sprints, nous pouvons récupérer la relation force-vitesse de chaque sprint, permettant ainsi la création d'un 3ème sprint avec les deux relation linéaires obtenues. 
 
@@ -63,7 +66,11 @@ L'objectif était de parvenir à recréer tout un soft d'analyse du sprint à pa
 - Traitement en live
 
 **Viewing**\
-![](assets/gif/presentation.globale.gif)
+Présentation du Homepage avec protection de mot de passe
+![](assets/gif/vue_ensemble.gif)
+
+Vue d'ensemble de l'application
+![](assets/gif/vue_ensemble2.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
