@@ -70,7 +70,8 @@ L'objectif était de parvenir à recréer tout un soft d'analyse du sprint à pa
 
 ### Built With
 
-* [![R][R.icon]][R-url]
+* [![Jupyter][Jupyter.icon]][Jupyter-url]
+* [![Python][Python.js]][Python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
