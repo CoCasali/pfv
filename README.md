@@ -51,16 +51,16 @@
 ## About The Project
 
 **Contextual reminder**\
-The National Organization for Combating Counterfeiting Currency, (ONCFM in French), is a public organization whose objective is to implement methods for identifying counterfeit euro bills. As part of this fight, we want to implement an algorithm that is able to automatically differentiate between real and counterfeit bills.
+Dans le cadre d'une étude scientifique, j'ai été amené à créer une application permettant l'analyse de sprint sur ergocycle. Durant l'étude scientifique, les sujets devaient effectuer 2 sprints à des résistances différentes. À l'aide de ses 2 sprints, nous pouvons récupérer la relation force-vitesse de chaque sprint, permettant ainsi la création d'un 3ème sprint avec les deux relation linéaires obtenues. 
 
 **Mission objective**\
-The objective of this institution is to set up methods to identify counterfeit euro banknotes. So they call on you, data specialist, to set up a model that would be able to automatically identify the real ones from the counterfeits. And this simply from certain dimensions of the banknote and the elements that compose it.
+L'objectif était de parvenir à recréer tout un soft d'analyse du sprint à partir des fichiers .tdms et ou .xls que nous obtenons de l'ergocycle. Il a fallu tout d'abord recréer tout le soft d'analyse en Python, qui était à la base en VBA, puis permettre une automisation des paramètres de sélection de données afin de rendre l'analyse le plus simple pour les personnes du laboratoire. 
 
 **Data analysis**\
-Exploratory data analysis
-K-means,
-PCA,
-Logistic Regression
+Traduire du code VBA en Python ; 
+Utilisation de streamlit pour de la visualisation ; 
+Exportation de données au format .csv ; 
+Traitement en live
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,9 +83,9 @@ Logistic Regression
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@corentincasali](https://twitter.com/corentincasali)
+[@corentincasali](https://twitter.com/corentincasali)
 
-Project Link: [https://github.com/CoCasali/Analyze-sales-bookstore](https://github.com/CoCasali/Analyze-sales-bookstore)
+Project Link: [https://github.com/CoCasali/pfv](https://github.com/CoCasali/pfv)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
